@@ -12,14 +12,11 @@ This project helped me understand how to organize code, fix bugs, and implement 
 
 ---
 ## 📸 Screenshots
+   <img width="1832" height="931" alt="Screenshot 2025-07-19 203744" src="https://github.com/user-attachments/assets/9c5f8b77-991e-48df-a3b2-4f84ccd50184" />
+   <img width="1832" height="931" alt="Screenshot 2025-07-19 203744" src="https://github.com/user-attachments/assets/de4c2430-71e4-415d-bcda-6aea6940b36a" />
 
 
 
-- ![Home Page](<img width="1908" height="974" alt="Screenshot 2025-07-19 203600" src="https://github.com/user-attachments/assets/f90ae6a2-0d31-4197-9814-944f8063362d" />)
-
-- ![Collection Filter](<img width="1832" height="931" alt="Screenshot 2025-07-19 203744" src="https://github.com/user-attachments/assets/d11120d3-35f0-4f8a-b084-7ade346b519a" />)
-
-  
 
 ---
 
@@ -50,9 +47,6 @@ This project helped me understand how to organize code, fix bugs, and implement 
   
 
 ---
-
-
-
 
 ## 📌 Hashtags
 
