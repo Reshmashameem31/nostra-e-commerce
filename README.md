@@ -7,7 +7,7 @@ This project helped me understand how to organize code, fix bugs, and implement 
 
 ## 🔗 Live Project URL
 
-👉 [Click here to view Nostra Live]()  
+👉 [Click here to view Nostra Live](https://reshmashameem31.github.io/nostra-e-commerce/)  
 
 
 ---
@@ -15,8 +15,10 @@ This project helped me understand how to organize code, fix bugs, and implement 
 
 
 
-- ![Home Page](./images/screenshot-home.png)
-- ![Collection Filter](./images/screenshot-collection.png)
+- ![Home Page](<img width="1908" height="974" alt="Screenshot 2025-07-19 203600" src="https://github.com/user-attachments/assets/f90ae6a2-0d31-4197-9814-944f8063362d" />)
+
+- ![Collection Filter](<img width="1832" height="931" alt="Screenshot 2025-07-19 203744" src="https://github.com/user-attachments/assets/d11120d3-35f0-4f8a-b084-7ade346b519a" />)
+
   
 
 ---
