@@ -7,7 +7,7 @@ This project helped me understand how to organize code, fix bugs, and implement 
 
 ## 🔗 Live Project URL
 
-👉 [Click here to view Nostra Live](https://your-github-username.github.io/nostra/)  
+👉 [Click here to view Nostra Live]()  
 
 
 ---
