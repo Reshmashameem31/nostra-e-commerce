@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+     <!--Creating a navbar-->
+<nav class="navbar-heading">
+    <h1>Nostra</h1>
+     
+<div id="navbar">
+    
+    <p id="home"><a href="index.html">Home</a></p>
+    <p id="home"><a href="newarrival">New Arrival</a></p>
+    <p id="home"><a href="mostwanted">Most Wanted</a></p>
+    <p id="home"><a href="collection.html">Collections</a></p>
+    <p id="home"><a href="contact.html">Contact Us</a></p>
+</div>
+
+</nav>
+<i id="menu-icon"class="fa-solid fa-bars" style="color: #00060f;"></i>
+<!-- Mobile Menu -->
+ <div id="order">
+<div   id="mobileMenu">
+   <i id="close-icon" class="fa-solid fa-xmark" style=" color: white;"></i>
+  <a href="index.html">Home</a>
+  <a href="#newarrival">New Arrival</a>
+  <a href="#mostwanted">Most Wanted</a>
+  <a href="collection.html">Collection</a>
+  <a href="contact.html">Contact</a>
+</div></div>
+<div class="form">
+<div class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+        <label>Name</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label>Email</label><br>
+        <input type="text" id="email" name="email" required><br>
+        <label for="message">Message</label><br>
+        <textarea id="textarea" name="message" required></textarea><br>
+        <button>Submit</button>
+    </form>
+
+</div>
+</div>
+ <div class="news-box">
+        <h1 class="join">Join our News Letter</h1>
+        <p class="sign">Signup for our email newspaper to get exclusive discounts,updates and more</p>
+        <div class="input">
+            <input  class="input1"type="text">
+        </div>
+        <div>
+            <button class="subscribe">Subscribe</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <div class="footer1-text">
+                <h2 class="nostra">Nostra</h2>
+                <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-instagram" style="color: #eceff3;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #e1e4ea;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #f5f5f5;"></i>
+                </div>
+            </div>
+        </div>
+        <p class="link">@ 2025 Nostra.com</p>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+  const menuIcon = document.getElementById("menu-icon");
+  const closeIcon = document.getElementById("close-icon");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  menuIcon.addEventListener("click", () => {
+    mobileMenu.classList.add("active");
+    closeIcon.style.display = "block";
+  });
+
+  closeIcon.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+    closeIcon.style.display = "none";
+  });
+});
+    </script>
+    
+</body>
+</html>

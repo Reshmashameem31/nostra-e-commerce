@@ -1,0 +1,857 @@
+
+ body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#discount{
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+#delete{
+  cursor: pointer;
+  
+  font-size: 18px;
+}
+.navbar-heading{
+    display: flex;
+    gap: 600px;
+    color: black;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    
+    
+}
+.navbar-heading h1{
+    margin-left: 2%;
+    font-size: 30px;
+}
+
+#navbar{
+    display: flex;
+     gap: 50px;
+    margin-top: 5px;
+    justify-content: space-between;
+     
+    width: 50%;
+}
+#home a{
+    color: black;
+    text-decoration: none;
+}
+#home a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* Hide menu and hamburger by default */
+#menu-icon{
+  display: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 15px;
+  position: absolute;
+  top: 40px;
+  left: 280px;
+  z-index: 1001;
+}
+
+#mobileMenu {
+  display: none;
+ 
+}
+.slider-box{
+   display: flex;
+   position: relative;
+   align-items: center;
+   width: 95%;
+   overflow: hidden;
+   padding: 10px;
+  margin: 1%;
+   
+}
+.image-slide{
+    display: flex;
+     overflow-x: auto;
+     scroll-behavior: smooth;
+  transition: 2s;
+  
+   
+    
+
+ 
+}
+ .image-slide::-webkit-scrollbar{
+  display: none;
+ }
+    
+.image{
+    width: 450px;
+    opacity: 0.1;
+  
+    
+    
+  
+    
+}
+
+.content{
+    position: absolute;
+    left: 20%;
+   top: 10%;
+    z-index: 2;
+
+}
+.content h1 {
+    font-size: 80px;
+
+}
+.content h2{
+    font-size: 20px;
+   margin-top: 0; 
+    margin-left: 30%;
+}
+.content button{
+    padding: 10px;
+    width: 10%;
+    margin-left: 33%;
+    background-color: aliceblue;
+    color: black;
+    font-size: 16px;
+    
+    
+}
+.slider-left-arrow{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    z-index: 5;
+    
+
+}
+.slider-left-arrow i{
+    font-size: 50px;
+    cursor: pointer;
+    
+     
+}
+.slider-right-arrow{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    z-index: 5;
+    
+}
+.slider-right-arrow i{
+    font-size: 50px;
+        cursor: pointer;
+        
+}
+.brand-heading{
+    margin-left: 2%;
+    
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+}
+.image1{
+    width: 5%;
+    margin-left: 2%;
+}
+.puma{
+   font-size: 14px;
+    
+}
+.service-box{
+  margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.service-box1{
+    margin-left: 1%;
+}
+.service-box2{
+    margin-right: 2%;
+    font-size: 25px;
+    
+    margin-top: 2%;
+}
+.original-container{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.original{
+    width: 25%;
+    background-color: #f6f6f8;
+   
+    
+}
+.original i{
+    font-size: 40px;
+     margin-left: 2%;
+    margin-top: 2%;
+}
+.original h4 {
+    margin-left: 2%;
+    
+}
+.original p{
+    margin-left:2%;
+
+}
+.new-heading{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.newarrival-con{
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right:2%;
+    
+}
+
+  .image2-container{
+    position: relative;
+  }
+.image2{
+   border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    opacity: 0.6;
+
+     
+}
+
+.image2-container button{
+    width: 50%;
+    height: 15%;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top:50%;
+    right:25%;
+    z-index: 2;
+    border-radius: 10px;
+}
+.most-heading{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.mostwanted{
+    display: flex;
+    gap:20px;
+    overflow-x: scroll;
+    justify-content: space-between;
+    margin-left: 2%;
+    
+
+}
+.mostwanted::-webkit-scrollbar{
+     display: none;
+}
+.image3-container{
+    position: relative;
+}
+.sale{
+    position: absolute;
+top: 2%;
+background-color: red;
+color: white;
+width: 35%;
+height: 15%;
+right: 60%;
+
+border-radius: 5px;
+font-size: 18px;
+}
+.image3{
+    width: 20vw;
+    border-radius: 2%;
+    
+    
+}
+.heart{
+  font-size: 40px;
+  position: absolute;
+  top: 75%;
+  right: 2%;
+  cursor: pointer;
+  background:none;
+  border:none;
+  color: gray;
+  transition: color 0.3s;
+  
+  
+}
+.heart.active{
+  color: red;
+}
+.limited-box{
+    width: 95vw;
+    height: 50vh;
+    background-color: #1D232C;
+    align-items: center;
+    overflow-x: hidden;
+    display: flex;
+    margin: 2%;
+  
+
+
+}
+
+
+.image-box img{
+    width: 50%;
+    margin-left: 20%;
+    
+    overflow-y: hidden;
+}
+.image-text{
+    color: #f6f6f8;
+    margin-right: 20%;
+    margin-top: 0;
+    font-size: 22px;
+    
+}
+.image-text button{
+    background-color: #f6f6f8;
+    color: #1D232C;
+    width: 100px;
+    height:40px;
+}
+.join{
+    font-size: 50px;
+    margin-left: 30%;
+}
+.sign{
+    font-size: 20px;
+    margin-left: 25%;
+}
+.input1{
+    width: 60%;
+    height: 30px;
+    margin: 1%;
+    border: #1D232C 2px solid;
+    margin-left: 20%;
+}
+.subscribe{
+    width: 10%;
+    height: 40px;
+    background-color: #1D232C;
+    color: white;
+    margin-left: 45%;
+    font-size: 18px;
+}
+.footer{
+    background-color: #1D232C;
+    height: 50vh;
+    box-sizing: border-box;
+    margin-top: 5%;
+    padding: 20px;
+    color: #f6f6f8;
+    
+    
+    
+    
+
+}
+.footer1-text p{
+    
+    font-size: 20px;
+
+}
+.nostra{
+    
+ font-size: 40px;
+    
+}
+.footer-icon{
+    padding: 10px;
+    word-spacing: 40px;
+    font-size: 20px;
+}
+.link{
+    font-size: 20px;
+}
+.contact-form{
+    width: 60vw;
+    height: 80vh;
+    background-color: #1D232C;
+    margin-left: 20%;
+    
+     align-items: center;
+    
+
+    border-radius: 10px;
+}
+.contact-form h2{
+    color: #f6f6f8;
+    margin-left: 5%;
+    padding: 2vw;
+    font-size: 30px;
+}
+.contact-form label{
+    font-size: 20px;
+    color: #f6f6f8;
+    padding: 4vw;
+}
+.contact-form input[type=text],
+.contact-form textarea{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+ 
+.contact-form button{
+    margin-left: 10%;
+    width: 20%;
+    height:50px;
+    margin-top: 5%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+}
+.double-container{
+    display: flex;
+}
+.summer-container{
+    margin-left: 2%;
+    font-size: 30px;
+}
+.navbar-container{
+    position: relative;
+    margin-left: 5%;
+    border-left: #1D232C 2px solid;
+}
+.navbar-container input[type=search]{
+    width: 60vw;
+    height: 5vh;
+    margin-left: 20%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+.navbar-container i{
+    font-size: 20px;
+    position: absolute;
+    top: 2%;
+    left:115%;
+}
+.product{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.product img{
+    width: 15vw;
+    height: 40vh;
+}
+.all-products1{
+    display: flex;
+    gap: 5px;
+}
+.all-products2{
+    display: flex;
+    gap: 5px;
+}
+.all-products3{
+    display: flex;
+    gap: 5px;
+}
+@media (max-width: 600px) {
+  body{
+    
+  }
+  /* Navbar */
+  .navbar-heading {
+    
+    align-items: center;
+    gap: 70%;
+  }
+  
+  #navbar {
+    display: none;
+    
+  }
+  /* Show only in mobile */
+
+  #menu-icon {
+    display: block;
+    margin-left: 5%;
+  }
+
+  
+  
+    #mobileMenu {
+  position: fixed;
+  top: 0;
+  left: -100%;/* hide it off screen */
+  width: 50%;
+  height: 100%;
+  background-color: #1D232C;
+  transition: 2s;
+  z-index: 1000;
+  
+  padding: 10px;
+  display: block;
+  
+  
+}
+  
+  
+  #mobileMenu.active {
+  left: 0; /* show it */
+}
+
+  #mobileMenu a {
+    font-size: 18px;
+    text-decoration: underline;
+    color: white;
+    padding: 20px ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #mobileMenu a:hover{
+    cursor: pointer;
+    color: red;
+  }
+#close-icon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  
+  z-index: 1001;
+  display: none;
+}
+#mobileMenu.active #close-icon{
+  display: block;
+}
+
+
+  /* Discount */
+  #discount {
+  
+    font-size: 12px;
+    gap: 5px;
+    padding: 5px;
+    text-align: center;
+    height: 10px;
+    width: 460px;
+  }
+  #discount p{
+    margin-left: 1%;
+  }
+
+  /* Brands */
+  .brand-heading{
+    font-size: 25px;
+  }
+  .brands {
+    gap: 0px;
+     
+    margin-left: 30%;
+    flex-direction: column;
+  
+  }
+
+  .image1 {
+    width: 30%;
+   
+    
+  }
+  .Puma{
+    font-size: 10px;
+    
+  }
+
+  /* Slider & Content */
+  .slider-box {
+    margin-left: 0px;
+    position: relative;
+    width: 90vw;
+    
+    
+  }
+  .slider-left-arrow{
+    position: absolute;
+    left: 22%;
+  }
+   .slider-left-arrow i{
+    
+   font-size: 15px;
+  }
+  .slider-right-arrow{
+    position: absolute;
+    right: 30%;
+  }
+
+   .slider-right-arrow i{
+  
+   font-size: 15px;
+    
+}
+.image-slide{
+  margin-left: 5%;
+  padding: 5px;
+}
+   .image{
+    width: 600px;
+    height: 150px;
+   }
+  .content h1 {
+    font-size: 15px;
+    margin-left: 5px;
+    
+  }
+
+  .content h2 {
+    font-size: 14px;
+    margin-left: 40px;
+  }
+
+  .content button {
+    width: 100px;
+    margin-left: 50px;
+    font-size: 14px;
+    height: 40px;
+    
+
+  
+  
+  }
+  .service-box{
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+  .service-box1 h1{
+    font-size: 14px;
+  
+  }
+  .service-box2{
+    margin-right: 15%;
+  }
+  .service-box2 p{
+    font-size: 10px;
+    
+  }
+
+  /* Original Section */
+  .original-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .original {
+    width: 50%;
+    margin-right: 15%;
+  }
+  .original i{
+    font-size: 15px;
+  }
+  .original h4 p{
+    font-size: 12px;
+  }
+
+  /* New Arrival and Most Wanted */
+  .new-heading{
+    font-size: 25px;
+  }
+  .most-heading{
+    font-size: 25px;
+  }
+  .newarrival-con{
+    gap: 0%;
+    margin-left: 5%;
+    margin-right: 10%;
+    flex-direction: column;
+  }
+  .image2-container{
+    gap: 2px;
+    justify-content: center;
+  }
+  .mostwanted {
+       display: flex;
+    gap:1px;
+     flex-direction: column;
+     justify-content: space-between;
+    
+    
+    
+  }
+  
+  .image2-container button{
+    width: 60px;
+    font-size: 10px;
+    height: 30px;
+    top: 70%;
+    left: 35%;
+  }
+
+  .image2{
+    width: 200px;
+    height: 150px;
+    margin-left: 20%;
+  }
+  .image3 {
+    width: 50vw;
+    height: 30vh;
+    
+  }
+  .image3-container{
+    margin-left: 20%;
+  }
+  .sale{
+    width: 8vw;
+    font-size: 10px;
+    left: 5px;
+    height: 2vh;
+  }
+  .heart{
+    font-size: 15px;
+    left: 20%;
+  }
+
+  /* Limited Offer */
+  .limited-box {
+    width: 90vw;
+    height: auto;
+  }
+
+  .image-box img {
+    width: 90%;
+    margin: 5%;
+  }
+
+  .image-text {
+    text-align: center;
+    margin: 10px;
+    font-size: 12px;
+  }
+  .image-text button{
+    width: 100%;
+    font-size: 12px;
+  }
+  .limited-container{
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  /* Newsletter */
+  .news-box{
+    margin-top: 5%;
+  
+  }
+  .join{
+    margin-left: 30%;
+    font-size: 16px;
+  }
+   .sign {
+    
+    font-size: 15px;
+    
+    margin-left: 20%;
+  }
+
+  .input1 {
+    width: 60%;
+    margin-left: 15%;
+    display: block;
+  }
+
+  .subscribe {
+    width: 25%;
+    margin-left: 30%;
+    display: block;
+  }
+
+  /* Footer */
+  .footer {
+    height: auto;
+    text-align: center;
+    width: 120vw;
+  }
+  .nostra{
+    font-size: 15px;
+  }
+  .footer1-text p{
+    font-size: 15px;
+    margin-left: 2%;
+  }
+  .footer-icon{
+    font-size: 15px;
+  }
+  .footer p{
+    font-size: 15px;
+    margin-left: 2%;
+  }
+
+  /* Contact form and products */
+  .contact-form {
+    width: 60%;
+    height: 40%;
+    margin: 20px auto;
+  }
+  .contact-form button{
+    width: 80px;
+    margin-bottom: 4px;
+  }
+  .summer-container h3{
+    font-size: 16px;
+
+  }
+  .input{
+    font-size: 10px;
+  }
+  .all-products1,
+  .all-products2,
+  .all-products3 {
+    gap: 1%;
+    
+  }
+  .product{
+    margin-left: 2%;
+  }
+
+  .product img {
+    width: 20vw;
+    height: 15vh;
+  }
+  .product h2{
+    font-size: 14px;
+  }
+  .product p{
+    font-size: 16px;
+  }
+  .navbar-container{
+    margin-right: 25%;
+  }
+    .navbar-container i{
+      left: 90%;
+    }
+  .navbar-container input[type=search]{
+    margin-left: 2%;
+    
+  }
+}
+    
