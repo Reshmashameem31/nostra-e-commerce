@@ -1,3 +1,13 @@
+
+   <img width="1832" height="931" alt="Screenshot 2025-07-19 203744" src="https://github.com/user-attachments/assets/9c5f8b77-991e-48df-a3b2-4f84ccd50184" />
+   <img width="1832" height="931" alt="Screenshot 2025-07-19 203744" src="https://github.com/user-attachments/assets/de4c2430-71e4-415d-bcda-6aea6940b36a" />
+
+
+
+
+---
+
+
 ## 👗 Nostra - Fashion E-Commerce Website
 
 Welcome to *Nostra*, a modern and responsive fashion e-commerce website built as part of my Week 5 project in the web development course. The goal of this project was to build a multi-page fashion website with real-world features using HTML, CSS, and JavaScript.
@@ -11,14 +21,7 @@ This project helped me understand how to organize code, fix bugs, and implement 
 
 
 ---
-## 📸 Screenshots
-   <img width="1832" height="931" alt="Screenshot 2025-07-19 203744" src="https://github.com/user-attachments/assets/9c5f8b77-991e-48df-a3b2-4f84ccd50184" />
-   <img width="1832" height="931" alt="Screenshot 2025-07-19 203744" src="https://github.com/user-attachments/assets/de4c2430-71e4-415d-bcda-6aea6940b36a" />
 
-
-
-
----
 
 ## 💡 What I Learned
 
